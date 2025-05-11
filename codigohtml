@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tienda en RA</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+      body { text-align: center; font-family: sans-serif; }
+      model-viewer { width: 100%; height: 500px; }
+    </style>
+  </head>
+  <body>
+    <h1>Visualizador de Tienda de Campaña</h1>
+    <model-viewer
+      src="tienda-piramide-cuadrangular.glb"
+      alt="Tienda de campaña en RA"
+      ar
+      ar-modes="scene-viewer quick-look webxr"
+      camera-controls
+      auto-rotate
+      shadow-intensity="1">
+    </model-viewer>
+    <p>Escanea este QR con tu móvil para verla en realidad aumentada.</p>
+  </body>
+</html>
